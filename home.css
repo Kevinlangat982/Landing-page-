@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, 'poppins';
+}
+.hero{
+    width: 100%;
+    min-height:100vh;
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+    
+
+}
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin-top: 10px;
+    padding: 1px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    background-color: rgb(212, 224, 235);
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: transparent;
+
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    mix-blend-mode: screen;
+  
+    
+}
+nav ul{
+    margin-left: 20%;
+
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 4px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(42, 8, 236, 0.932);
+    font-size: large;
+}
+.login{
+    text-decoration: none;
+}
+.down{
+    text-decoration: none;
+}
+.loginbtn{
+    margin-right: 10px;
+    width: 80px;
+    border-radius: 20px;
+    padding: 8px 5px;
+    border-bottom-left-radius: 1px;
+    background-image: linear-gradient(45deg, #84df48, #e4ee542f);
+
+}
+.downbtn{
+    margin-right: 20px;
+    width: 120px;
+    border-radius: 20px;
+    padding: 8px 5px;
+    border-bottom-left-radius: 1px;
+    background-image: linear-gradient(45deg, #48dfd3, #6384ee);
+    transition: 1s;
+
+}
+.content{
+    margin-top: 300px;
+    margin-left: 150px;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h2{
+    font-size: 80px;
+    margin-left: -70px;
+    color: #64ec09;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(21, 5, 238);
+    font-weight: 700;
+    font-style: oblique;
+    margin-left: -50px;
+    margin-top: -30px;
+
+}
+.content .downbtn{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-right: 5px;
+    margin-left: -50px;
+}
+.content .downbtn .down{
+    font-size: 20px;
+    color: aliceblue;
+}
+.downbtn:hover{
+    border-bottom-left-radius: 20px;
+}
