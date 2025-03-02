@@ -116,3 +116,31 @@ p{
 .downbtn:hover{
     border-bottom-left-radius: 20px;
 }
+
+/* Responsive for Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 1.8rem;
+    padding: 15px;
+  }
+
+  .content {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive for Mobile Phones (480px and below) */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .content {
+    font-size: 0.9rem;
+  }
+    }
